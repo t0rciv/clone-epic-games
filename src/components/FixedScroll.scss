@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 7rem;
+  position: fixed;
+  background-color: rgb(18, 18, 18);
+  width: 100vw;
+}
+
+header .ajuste {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 17rem;
+}
+
+.scroll {
+  position: fixed;
+  top: 0;
+  background-color: rgb(18, 18, 18);
+}
+
+div .opcoes {
+  display: flex;
+  gap: 2rem;
+  color: rgba(134, 134, 134, 0.685);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+div .opcoes li:hover,
+div .ativo {
+  color: white;
+  transition-duration: 0.3s;
+}
+
+input {
+  background-color: #2a2a2a;
+  border: none;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+input::placeholder {
+  color:rgb(175, 175, 159)
+}
